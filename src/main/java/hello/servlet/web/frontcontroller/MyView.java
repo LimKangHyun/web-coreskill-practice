@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class MyView {
 
-    private String viewPath;
+    private String viewPath;//객체가 호출하는 url이 넘어온다.
 
     public MyView(String viewPath) {
         this.viewPath = viewPath;
